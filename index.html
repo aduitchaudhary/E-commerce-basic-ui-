@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKETUP | YOUR OWN E-COMMERCE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Essential CSS for image layout */
+        .category-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%; /* Makes category images circular */
+            margin-bottom: 10px;
+        }
+        .category-card {
+            text-align: center;
+            font-weight: 600;
+        }
+        .product-img img {
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="lOGO">MARKETUP</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <span>🔍</span>
+            <span>🛒</span>
+        </div>
+    </nav>
+
+    <header class="hero" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('unnamed.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1>Make Yourself Presentable</h1>
+            <p>Experience the premium collection of aesthetic fashion and accessories.</p>
+            <a href="#products" class="btn-primary">Shop Now</a>
+        </div>
+    </header>
+
+    <section class="categories">
+        <h2 class="section-title">Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images appliances.jpg" alt="Appliances">
+                <p>Appliances</p>
+            </div>
+            <div class="category-card">
+                <img src="electronics.jpg" alt="Electronics">
+                <p>Electronics</p>
+            </div>
+            <div class="category-card">
+                <img src="sports wear.avif" alt="Sports">
+                <p>Sports wear</p>
+            </div>
+            <div class="category-card">
+                <img src="furniters.jpg" alt="Furniture">
+                <p>Furnitures</p>
+            </div>
+            <div class="category-card">
+                <img src="makeup.jpg" alt="Beauty">
+                <p>Beauty</p>
+            </div>
+            <div class="category-card">
+                <img src="grocery.png" alt="Grocery">
+                <p>Grocery</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="OIP (2).jpg" alt="Man Utd Jersey" style="width:100%">
+                </div>
+                <h3>Man Utd Jersey</h3>
+                <p class="price">RS 1720.00</p>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="OIP (3).jpg" alt="Smart Watch" style="width:100%">
+                </div>
+                <h3>Smart Watch</h3>
+                <p class="price">RS 1800</p>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Headphones" style="width:100%">
+                </div>
+                <h3>Headphone</h3>
+                <p class="price">RS 1200</p>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="jacket.jpg" alt="Black Leather Jacket" style="width:100%">
+                <h3>Jacket</h3>
+                <p class="price">RS 1450</p>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers">
+        <div class="offer-banner">
+            <h2>END OF THE YEAR SALE : 40% OFF</h2>
+            <p>Use Code: <strong>CHAUDHARY@40</strong> at checkout.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>MARKETUP</h3>
+                <p>Quality products delivered to your doorstep within 4 days of order.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">© 2025 MARKETUP. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
